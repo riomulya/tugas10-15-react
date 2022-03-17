@@ -1,9 +1,11 @@
-import Tugas10 from "../Page/tugas10";
+import React from "react";
+import "semantic-ui-css/semantic.min.css";
+import { Button } from "semantic-ui-react";
 
 function App() {
   return (
     <div>
-      <Tugas10 />
+      <Button class="ui button">Click Here</Button>
     </div>
   );
 }
